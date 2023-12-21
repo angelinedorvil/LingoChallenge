@@ -20,8 +20,8 @@ To get started with LingoChallenge, follow these simple steps:
 4. **Run the Application**:  
    `python LingoChallenge.py`
    
-## Getting Started ##Alternate Access to executable program via Replit
-- https://replit.com/@angelinedorvil/LingoChallenge?v=1
+## Alternate Access to executable program via Replit
+- https://replit.com/@angelinedorvil/LingoChallenge
 
 ## How to Use
 - Upon launch, choose your preferred language: French or Haitian Creole.
