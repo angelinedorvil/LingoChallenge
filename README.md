@@ -10,8 +10,7 @@ LingoChallenge is an interactive language quiz designed to test and enhance your
 - **Scoring System**: Receive immediate feedback on your translations with a scoring system that rewards accuracy and fluency.
 - **Educational Feedback**: Learn from your mistakes with correct translations provided after each attempt.
 
-## Getting Started ##Alternate Access to executable program via Replit
-
+## Getting Started 
 To get started with LingoChallenge, follow these simple steps:
 
 1. **Clone the Repository**:  
