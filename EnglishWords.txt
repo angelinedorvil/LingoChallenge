@@ -1,0 +1,55 @@
+house
+apartment
+elevator
+balcony
+hall
+stairway
+window
+garden
+furniture
+carpet
+wall
+floor
+patio
+ceiling
+porch
+door
+curtain
+floor
+rug
+porch
+room
+attic
+basement
+kitchen
+stove
+kitchen sink
+oven
+microwave
+refrigerator
+dining room
+chair
+table
+living room
+couch
+stereo
+television
+office
+poster
+shelf
+printer
+lamp
+computer
+telephone
+bedroom
+closet
+dresser
+bed
+pillow
+alarm clock
+bathroom
+toilet
+bathtub
+shower
+bathroom sink
+mirror

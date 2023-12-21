@@ -1,0 +1,55 @@
+une maison
+un appartement
+un ascenseur
+un balcon
+un couloir
+un escalier
+une fenêtre
+un jardin
+un meuble
+une moquette
+un mur
+un parquet
+un patio
+un plafond
+un porche
+une porte
+un rideau
+un sol
+un tapis
+une véranda
+une salle
+un grenier
+un sous-sol
+la cuisine
+une cuisinière
+un évier
+un four
+un four à micro-ondes
+un réfrigérateur
+la salle à manger
+une chaise
+une table
+un salon
+un canapé
+une chaîne stéréo
+une télévision
+un bureau
+une affiche
+une étagère
+une imprimante
+une lampe
+un ordinateur
+un téléphone
+une chambre
+une armoire
+une commode
+un lit
+un oreiller
+un réveil
+une salle de bain
+les toilettes
+une baignoire
+une douche
+un lavabo
+un miroir
