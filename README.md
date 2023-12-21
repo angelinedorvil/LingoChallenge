@@ -10,7 +10,8 @@ LingoChallenge is an interactive language quiz designed to test and enhance your
 - **Scoring System**: Receive immediate feedback on your translations with a scoring system that rewards accuracy and fluency.
 - **Educational Feedback**: Learn from your mistakes with correct translations provided after each attempt.
 
-## Getting Started
+## Getting Started ##Alternate Access to executable program via Replit
+
 To get started with LingoChallenge, follow these simple steps:
 
 1. **Clone the Repository**:  
@@ -19,6 +20,9 @@ To get started with LingoChallenge, follow these simple steps:
    `cd LingoChallenge`
 4. **Run the Application**:  
    `python LingoChallenge.py`
+   
+## Getting Started ##Alternate Access to executable program via Replit
+- https://replit.com/@angelinedorvil/LingoChallenge?v=1
 
 ## How to Use
 - Upon launch, choose your preferred language: French or Haitian Creole.
