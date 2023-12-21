@@ -159,12 +159,18 @@ def sentenceTranslation(testLanguage, englishTranslate, numQuestions):
           commonWords = correctWords.intersection(userWords)
           commonWordScore = len(commonWords) / len(correctWords)
           
-          if commonWordScore >= 0.8:
+          if commonWordScore == 1:
+            score += questionScore
+            print(f"Perfectly Correct! Your score is {score}.")
+            print("")
+            break
+          elif commonWordScore >= 0.6:
             score += questionScore
             print(f"Mostly Correct! Your score is {score}.")
             print("")
             print(f"The full correct answer is '{quizDict[testPhrase]}'")
             print("")
+            break
           else:
             questionScore -= 1
             if attempts > 0:
@@ -179,11 +185,11 @@ def sentenceTranslation(testLanguage, englishTranslate, numQuestions):
           f"Your final score is {score}/{numQuestions*3} or {finalScorePerc}%.")
       print("")
 
-      if finalScorePerc >= 80:
+      if finalScorePerc >= 60:
         print("Congratulations! You have passed the quiz. "
               "Thank you for playing the sentence Vocabulary Quiz.")
       else:
-        print("Keep trying, you need an 80% to pass! You'll get there. "
+        print("Keep trying, you need an 60% to pass! You'll get there. "
               "Thank you for playing the sentence Vocabulary Quiz.")
 
 
@@ -229,14 +235,25 @@ def paragraphTranslation(testLanguage, englishTranslate, numQuestions):
       for userSentence, correctSentence in zip(userSentences, correctSentences):
         commonWords = set(userSentence.split()).intersection(set(correctSentence.split()))
         commonWordScore = len(commonWords) / len(set(correctSentence.split()))
-
-        if commonWordScore >= 0.8:
+         
+        if commonWordScore == 1:
             score += 3
-        
-      print(f"Mostly Correct! Your score is {score}.")
-      print("")
-      print(f"The correct answer is '{quizDict[testParag]}'")
-      print("")
+            print(f"Perfectly Correct! Your score is {score}.")
+            print("")
+            break
+        elif commonWordScore >= 0.6:
+            score += 3
+            print(f"Mostly Correct! Your score is {score}.")
+            print("")
+            print(f"The correct answer is '{quizDict[testParag]}'")
+            print("")
+            break
+        else:
+            print("Incorrect.")
+            print("")
+            print(f"The correct answer is '{quizDict[testParag]}'")
+            print("")
+            break
     else:
       score = 0
       print("Incorrect number of sentences for the paragraph.")
@@ -248,11 +265,11 @@ def paragraphTranslation(testLanguage, englishTranslate, numQuestions):
   print(f"Your final score is {score}/{numParag*3} or {finalScorePerc}%.")
   print("")
 
-  if finalScorePerc >= 80:
+  if finalScorePerc >= 60:
     print("Congratulations! You have passed the quiz. "
           "Thank you for playing the paragraph Vocabulary Quiz.")
   else:
-    print("Keep trying, you need an 80% to pass! You'll get there. "
+    print("Keep trying, you need an 60% to pass! You'll get there. "
           "Thank you for playing the paragraph Vocabulary Quiz.")
 
 
