@@ -81,7 +81,7 @@ def wordTranslation(testLanguage, englishTranslate, numQuestions):
               f"You have {attempts} attempts.\n")
           attempts -= 1
 
-          if userInput.lower() == quizDict[testPhrase].lower():
+          if userInput.lower().strip() == quizDict[testPhrase].lower().strip():
             score += questionScore
             print(f"Correct! Your score is {score}.")
             print("")
